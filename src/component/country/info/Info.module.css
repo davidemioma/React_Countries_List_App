@@ -1,0 +1,38 @@
+.info {
+  padding-top: 2rem;
+}
+
+.btn_dark {
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.btn_light {
+  background: #fff;
+  color: black;
+}
+
+.info button {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.contents {
+  display: grid;
+  gap: 1rem 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .contents {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}

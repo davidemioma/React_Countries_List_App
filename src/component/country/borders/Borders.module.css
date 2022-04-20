@@ -1,0 +1,32 @@
+.borders {
+  padding: 1.5rem 0;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.bg_dark {
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.bg_light {
+  background: #fff;
+  color: black;
+}
+
+.bg_dark,
+.bg_light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.bg_dark:hover,
+.bg_light:hover {
+  transform: scale(1.05);
+}

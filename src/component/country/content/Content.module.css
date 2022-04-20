@@ -1,0 +1,26 @@
+.text_dark {
+  color: #fff;
+}
+
+.text_light {
+  color: black;
+}
+
+.content {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.content div h3 {
+  margin-bottom: 0.8rem;
+}
+
+.content div p {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

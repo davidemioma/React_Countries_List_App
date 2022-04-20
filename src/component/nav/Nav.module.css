@@ -1,0 +1,45 @@
+.bg_dark {
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.bg_light {
+  background: #fff;
+  color: black;
+}
+
+.nav,
+.nav div {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.nav div {
+  gap: 0.5rem;
+}
+
+.nav div img,
+.nav h2 {
+  cursor: pointer;
+}
+
+.nav div img {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav h2 {
+    font-size: 1.2rem;
+  }
+
+  .nav div img {
+    width: 20px;
+    height: 20px;
+  }
+}

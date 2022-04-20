@@ -1,0 +1,54 @@
+.dark_mode .filter_top,
+.dark_mode .filter_list {
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.light_mode .filter_top,
+.light_mode .filter_list {
+  background: #fff;
+  color: black;
+}
+
+.filters {
+  position: relative;
+  z-index: 10;
+}
+
+.filter_top,
+.filter_list {
+  padding: 0.5rem 0.8rem;
+  width: 200px;
+}
+
+.filter_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.filter_top span {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.filter_list {
+  margin-top: 0.3rem;
+  position: absolute;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.filter_list option {
+  cursor: pointer;
+  margin-bottom: 0.2rem;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-out;
+}
+
+.filter_list p:hover {
+  opacity: 1;
+}

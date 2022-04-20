@@ -1,0 +1,30 @@
+.bg_dark {
+  background: hsl(209, 23%, 22%);
+}
+
+.bg_light {
+  background: #fff;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.bg_dark.input input {
+  color: #fff;
+}
+
+.bg_light.input input {
+  color: black;
+}
+
+.input input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+}

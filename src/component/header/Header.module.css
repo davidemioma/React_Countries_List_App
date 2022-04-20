@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.header .input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header .input {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
